@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
 
     public native int dummyValue();
 
+    public native void processFrame(long inputMatAddr, long outputMatAddr);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
